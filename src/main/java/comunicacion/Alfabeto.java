@@ -6,7 +6,7 @@ public class Alfabeto extends Pictograma {
 	private static ArrayList<String> letras = new ArrayList<String>();
 	private String interpretacion;
 
-	public Alfabeto(ArrayList<String> letras, String interpretacion, String origen) {
+	public Alfabeto(String origen, ArrayList<String> letras, String interpretacion) {
 		super(origen);
 		Alfabeto.letras = letras;
 		this.interpretacion = interpretacion;
