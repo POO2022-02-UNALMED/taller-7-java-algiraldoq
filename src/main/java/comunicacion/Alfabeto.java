@@ -27,7 +27,15 @@ public class Alfabeto extends Pictograma {
 	}
 
 	public Integer cantidadletras() {
-		return letras.length;
+		Integer numeroLetras=0;
+		String letraAnterior = "";
+		for (String letra : letras) {
+			if (letraAnterior != letra) {
+				numeroLetras++;
+				letraAnterior = letra;
+			}
+		}
+		return numeroLetras;
 	}
 
 	@Override
