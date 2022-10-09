@@ -26,16 +26,8 @@ public class Alfabeto extends Pictograma {
 		this.interpretacion = interpretacion;
 	}
 
-	public Integer cantidadletras() {
-		Integer numeroLetras=0;
-		String letraAnterior = "";
-		for (String letra : letras) {
-			if (letraAnterior != letra) {
-				numeroLetras++;
-				letraAnterior = letra;
-			}
-		}
-		return numeroLetras;
+	public Integer cantidadLetras() {
+		return letras.length;
 	}
 
 	@Override
