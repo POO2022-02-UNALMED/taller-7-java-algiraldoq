@@ -52,7 +52,7 @@ public class Periodico extends Escrito {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return getOrigen() + "/n" + getTitulo() + "/n" + getAutor() + "/n" + getPaginas() + "/n" + fecha + "/n"
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n"
 				+ primicia;
 	}
 

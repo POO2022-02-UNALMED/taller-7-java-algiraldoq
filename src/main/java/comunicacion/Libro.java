@@ -62,8 +62,8 @@ public class Libro extends Escrito {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return getOrigen() + "/n" + getTitulo() + "/n" + getAutor() + "/n" + getPaginas() + "/n" + co_autor + "/n"
-				+ editorial + "/n" + edicion;
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + co_autor + "\n"
+				+ editorial + "\n" + edicion;
 	}
 
 }
